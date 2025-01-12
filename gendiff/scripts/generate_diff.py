@@ -5,12 +5,17 @@ def load_data(file_path):
     with open(file_path) as file:
         return json.load(file)
 
+
+def compare_keys(data1, data2):
+    return sorted(data1.keys() | data2.keys())
+
+
 def generate_diff(file1_path, file2_path):
     data1 = load_data(file1_path)
     data2 = load_data(file2_path)
 
     result = []
-    keys = sorted(set(data1.keys()) | set(data2.keys()))
+    keys = compare_keys(data1, data2)
 
     for key in keys:
         if key in data1 and key not in data2:
