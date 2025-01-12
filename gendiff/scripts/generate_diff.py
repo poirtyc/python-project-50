@@ -1,9 +1,13 @@
 import json
 
 
+def load_data(file_path):
+    with open(file_path) as file:
+        return json.load(file)
+
 def generate_diff(file1_path, file2_path):
-    data1 = json.load(open(file1_path))
-    data2 = json.load(open(file2_path))
+    data1 = load_data(file1_path)
+    data2 = load_data(file2_path)
 
     result = []
     keys = sorted(set(data1.keys()) | set(data2.keys()))
