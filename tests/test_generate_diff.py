@@ -11,7 +11,7 @@ def generate_diff_func():
 
 
 def get_path_files(filename):
-    return Path(__file__).parent / 'test_data' / filename
+    return Path(__file__).parent / "test_data" / filename
 
 
 def read_file(filename):
