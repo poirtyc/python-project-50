@@ -5,4 +5,4 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/2c87daba09cdef8338d5/test_coverage)](https://codeclimate.com/github/poirtyc/python-project-50/test_coverage)
 
 
-[![Generate diff with files](https://asciinema.org/a/xxxxxx.png)](https://asciinema.org/a/GseIMj90qpGAblviMheCaXTY3)
+[![Generate diff with files](https://asciinema.org/a/GseIMj90qpGAblviMheCaXTY3.png)](https://asciinema.org/a/GseIMj90qpGAblviMheCaXTY3)
