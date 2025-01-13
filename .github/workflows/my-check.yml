@@ -37,4 +37,4 @@ jobs:
         run: |
           ./cc-test-reporter before-build
           make test-coverage
-          ./cc-test-reporter after-build --exit-code $?
+          ./cc-test-reporter after-build --exit-code $? -t coverage.py
