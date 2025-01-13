@@ -4,6 +4,7 @@ import pytest
 
 from gendiff.scripts.generate_diff import generate_diff
 
+
 @pytest.fixture
 def generate_diff_func():
     return generate_diff
