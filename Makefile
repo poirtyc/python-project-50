@@ -11,7 +11,7 @@ test-cov:
 	uv run pytest --cov=gendiff --cov-report=term-missing
 
 test-coverage:
-	pytest --cov=gendiff --cov-report=xml
+	uv run pytest --cov=gendiff --cov-report=xml:coverage.xml
 
 lint:
 	uv run ruff check
