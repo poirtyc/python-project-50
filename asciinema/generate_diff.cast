@@ -1,0 +1,9 @@
+{"version": 2, "width": 197, "height": 11, "timestamp": 1736755317, "env": {"SHELL": "/bin/zsh", "TERM": "xterm-256color"}}
+[0.074223, "o", "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                    \r \r"]
+[0.074655, "o", "\r\u001b[0m\u001b[27m\u001b[24m\u001b[Jdmitriy@MacBook-Air-Dmitriy /Users/dmitriy/Desktop/projects/python-project-50 @main:44cfc75: \u001b[K\u001b[?2004h"]
+[1.480215, "o", "python -m gendiff.scripts.gendiff ./gendiff/scripts/file1.json ./gendiff/scripts/file2.json"]
+[2.36538, "o", "\u001b[?2004l\r\r\n"]
+[2.448269, "o", "{\r\n  - follow: False\r\n    host: hexlet.io\r\n  - proxy: 123.234.53.22\r\n  - timeout: 50\r\n  + timeout: 20\r\n  + verbose: True\r\n}\r\n"]
+[2.451057, "o", "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                    \r \r"]
+[2.451132, "o", "\r\u001b[0m\u001b[27m\u001b[24m\u001b[Jdmitriy@MacBook-Air-Dmitriy /Users/dmitriy/Desktop/projects/python-project-50 @main:44cfc75: \u001b[K\u001b[?2004h"]
+[4.647127, "o", "\u001b[?2004l\r\r\n"]
